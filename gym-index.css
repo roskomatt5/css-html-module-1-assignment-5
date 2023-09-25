@@ -1,0 +1,248 @@
+body {
+    background-color:  black;
+    color: limegreen;
+}
+.container {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.gym-shot {
+    margin-top: 50px;
+    height: auto;
+}
+
+.landing-footer {
+    display: flex;
+    justify-content: space-evenly ;
+
+}
+
+.about-link {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:antiquewhite;
+}
+.nav-link:hover {
+    background-color: limegreen;
+}
+.btn {
+    background-color: limegreen;
+    border-color: black;
+}
+.btn-primary:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.btn-primary:active {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.navbar {
+    background-color: #000;
+    margin-bottom: 15px;
+}
+
+.email-form {
+    border: solid;
+    margin-top: 50px;
+    margin-left: 475px;
+    width: 400px;
+    
+}
+
+.tiny {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper{ 
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+}
+
+.box {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.grid-img {
+    object-fit: cover;
+    max-width: 300px;
+    height: 200px;
+
+}
+
+.grid-text {
+    text-align: center;
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.tiny {
+    text-decoration: none;
+    color:antiquewhite;
+}
+   
+    .sign-in {
+        height: 350px;
+        width: 450px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 1px solid limegreen;
+    
+    }
+    
+    #con-button {
+       background-color: limegreen;
+       display: inline-block;
+       width: 300px;
+       margin-top: 25px;
+    }
+    
+    .form-label {
+       color: rgb(4, 4, 4);
+       padding: 10px 0 10px;
+    }
+    
+    .email-label {
+        padding-bottom: 10px;
+    }
+    
+    .password-line {
+        display: inline-block;
+        color: limegreen;
+
+    }
+    
+    #p-prompt {
+        margin-right: 30px;
+        padding-right: 100px;
+    }
+    
+    
+    .sign-up {
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: limegreen;
+    }
+    
+    .ui-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+    
+    #create-account {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    
+    h3 {
+        width: 100%; 
+        text-align: center; 
+        line-height: 0.0em;
+        margin: 5px 0 5px; 
+        padding-top: 10px;
+        font-size: medium;
+        color: limegreen;
+     } 
+   
+     #sign-up {
+        color: limegreen;
+        text-align: center;
+        text-decoration: none;
+     }
+    
+    footer {
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    
+
+    .input-field {
+        width: 298px;
+    }
+    
+    .button-container {
+        padding-top: 5px;
+    }
+    
+    .footer-customer {
+        display: inline-block;
+        column-count: 3;
+        column-gap:1px;
+        margin-left:50px;
+        font-size: 14px ;
+    }
+    
+    #foot-help {
+        margin-left: 30px;
+    }
+    
+    .copyright {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    footer {
+        margin-bottom: 0px;
+    }
+    
+    .bottom {
+        background-color: black;
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: top 30px;
+        justify-content: space-evenly;
+    }
+    
+
+    .footinfo {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        padding: 10px;
+        font: 0.6em;
+    }
+    .social {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        font: 0.6em;
+    }
+    
+    .foothead {
+        font-size: 2em;
+    }
+    
+    .tiny {
+        margin: 3px
+    }
+    
+
